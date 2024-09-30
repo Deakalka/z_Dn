@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Привітання для Вікусі</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="greeting-card" id="card">
+            <h1>Привіт, Вікуся!</h1>
+            <p class="message">Вітаю тебе з чудовим днем! Нехай у твоєму житті буде багато радості, усмішок та теплих моментів. 🎉</p>
+            <button class="btn" onclick="showSurprise()">Натисни для сюрпризу</button>
+        </div>
+        <div id="surprise" class="hidden">
+            <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" alt="Confetti" class="confetti">
+            <p class="surprise-message">Ти найкраща! 🎈 Нехай здійсняться всі твої мрії!</p>
+            <p><button class="btn" onclick="moveCard()">Давай ще раз!</button></p>
+        </div>
+        <div id="flower" class="hidden">
+            <img src="https://media.giphy.com/media/3oriNKQe0D3Yyp4UVG/giphy.gif" alt="Flower" class="flower">
+        </div>
+    </div>
+    <div class="video-container">
+        <h2>Для тебе відео:</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j5pP0IGqriI" title="Відео для Вікусі" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
